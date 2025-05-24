@@ -6,7 +6,9 @@ If you find a bug feel free to DM me on discord: yesyesboy12
 
 #### NOTE: ChatTriggers 2.2.0 or higher must be installed.
 Download the DunegonsPlus.zip
-
+Type Win+R then type %appdata% click .minecraft/config/Chattriggers/Modules and copy that file location
+Go to Downloads Folder right-click DungeonsPlus-beta -> Extract All then paste in that file location
+Go into minecraft and type /ct load
 If the module fails to load DM me on discord.
 
 # Features
