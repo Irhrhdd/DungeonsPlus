@@ -1,8 +1,8 @@
 {
-    "name": "Bloom",
+    "name": "DunegonsPlus",
     "description": "Random stuff idk",
     "version": "4.8.12",
-    "author": "UnclaimedBloom6",
+    "author": "Irhrhd",
     "entry": "index.js",
     "requires": [
         "requestV2",
