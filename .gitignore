@@ -1,0 +1,5 @@
+data/data.json
+data/playerLogs.json
+data/bestSplits.json
+config.toml
+out/
