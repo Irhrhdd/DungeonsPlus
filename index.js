@@ -1,6 +1,7 @@
 /// <reference types="../CTAutocomplete" />
 /// <reference lib="es2015" />
 
+import { request } from 'axios';
 import { skillsCommand } from "./commands/SkillsCommand"
 import { dontRp } from "./commands/DontRP"
 import { memberCommand } from "./commands/MemberCommand"
