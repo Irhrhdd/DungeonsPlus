@@ -1,13 +1,13 @@
-# BloomModule
+# DungeonsPlus
 
-If you find a bug, want to share suggestions etc then join my Discord server: https://discord.gg/pykzREcAuZ
+If you find a bug feel free to DM me on discord: yesyesboy12
 
 ## Installation
 
 #### NOTE: ChatTriggers 2.2.0 or higher must be installed.
-Run the command "/ct import Bloom" in-game.
-Run "/bl" to open the config gui. If this does not work upon first installing, make sure that your ChatTriggers version is set to v2.2.0 or higher, and then run "/ct load" to refresh your modules and try to run "/bl" again.
-If the module still fails to load, join my Discord server and send me a message containing the content of your js console ("/ct console js").
+Download the DunegonsPlus.zip
+
+If the module fails to load DM me on discord.
 
 # Features
 
