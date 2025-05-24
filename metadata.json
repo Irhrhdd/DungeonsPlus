@@ -11,6 +11,7 @@
         "PromiseV2",
         "BloomCore",
         "RenderLib",
-        "ListFix"
+        "ListFix",
+        "axios"
     ]
 }
