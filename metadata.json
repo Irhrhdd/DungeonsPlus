@@ -1,7 +1,7 @@
 {
     "name": "DunegonsPlus",
     "description": "Random stuff idk",
-    "version": "4.8.12",
+    "version": "0.0.2",
     "author": "Irhrhd",
     "entry": "index.js",
     "requires": [
