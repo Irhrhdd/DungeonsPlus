@@ -1,7 +1,7 @@
 import PogObject from "../../PogData/index"
 
-export const prefix = "&8[&bBloom&8]&r"
-export const data = new PogObject("Bloom", {
+export const prefix = "&8[&bDungeonsPlus&8]&r"
+export const data = new PogObject("DungeonsPlus", {
     firstTime: true,
     notifiedZeroPing: false,
     speedDisplay: {
