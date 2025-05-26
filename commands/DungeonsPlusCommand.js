@@ -1,6 +1,6 @@
 import Config from "../Config"
 
-export const bloomCommand = register("command", (...args) => {
+export const dungeonsplusCommand = register("command", (...args) => {
     if (!args || !args[0]) return Config.openGUI()
 
     if (args[0] == "setkey") return ChatLib.command(`bcore setkey ${args[1]}`, true)
@@ -8,10 +8,10 @@ export const bloomCommand = register("command", (...args) => {
     if (args[0] == "help") {
         let messages = [
             `&a&m${ChatLib.getChatBreak(" ")}`,
-			`&b&n Bloom `,
+			`&b&n DungeonsPlus `,
 			` `,
-            `&7/bl &8- Open config GUI`,
-			`&7/bl setkey <key> &8- Set API Key`,
+            `&7/dp &8- Open config GUI`,
+			`&7/dp setkey <key> &8- Set API Key`,
 			`&7/ds <player> &8- Dungeon Stats`,
 			`&7/mem <player> &8- Guild Stats`,
 			`&7//rp [...exclude] &8- Reparty. Add players to skip.`,
@@ -23,4 +23,4 @@ export const bloomCommand = register("command", (...args) => {
         ChatLib.chat(messages.join("\n"))
         // messages.forEach(a => ChatLib.chat(ChatLib.getCenteredText(a)))
     }
-}).setName("bloom").setAliases(["bl"])
+}).setName("dungeonsplus").setAliases(["dp"])
