@@ -255,8 +255,8 @@ If the module fails to load DM me on discord.
 ### Main Commands
 
 <details>
-	<summary>/bl - Open the config GUI</summary>
-	- /bl setkey \<api key> - Set your API key (Required for a lot of features).
+	<summary>/dp - Open the config GUI</summary>
+	- /dp setkey \<api key> - Set your API key (Required for a lot of features).
 </details>
 <details>
 	<summary>/ds [player]</summary>
