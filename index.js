@@ -20,6 +20,7 @@ import "./commands/DsCommand"
 import "./utils/FirstInstall"
 
 import "./features/AutoArchitectDraft"
+import "./features/BetaFeatures"
 import "./features/AutoDSParty"
 import "./features/AutoKicker"
 import "./features/AutoReparty"
