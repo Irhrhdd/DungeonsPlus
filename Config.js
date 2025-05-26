@@ -13,7 +13,7 @@ import {
     @NumberProperty,
 } from '../Vigilance/index';
 
-@Vigilant("Bloom", "Bloom", {
+@Vigilant("DungeonsPlus", "DungeonsPlus", {
     getCategoryComparator: () => (a, b) => {
         const categories = ["General", "Dungeons", "Solvers", "Terminals", "Gui", "Party Finder", "Dungeon Chest Profit"];
         return categories.indexOf(a.name) - categories.indexOf(b.name);
@@ -25,7 +25,7 @@ class Config {
 
         const lines = [
             "",
-            "&b/bl setkey <api key> &r- Set your API key.",
+            "&b/bp setkey <api key> &r- Set your API key.",
             "",
             "&b/ds <player> &r- Dungeon Stats.",
             "&b/mem <player> &r- Guild Stats.",
@@ -47,11 +47,11 @@ class Config {
 
         this.setCategoryDescription("General", 
             `
-            &6&l&nBloom
+            &6&l&nDungeonsPlus
 
             ${lines.map(a => a !== "" ? padText(a + "&0", ".", maxLength) : a).join("\n")}
 
-            &6UnclaimedBloom6 is very cool and cool
+            &6irhrhd is very cool and cool
             `
         )
 
